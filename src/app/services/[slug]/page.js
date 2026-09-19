@@ -21,11 +21,17 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${service.name} Services | Osumio Agency`,
+    alternate: {
+      canonical: `{{metadataBase}}/services/${service.slug}`,
+      languages: {
+        "en-US": `{{metadataBase}}/services/${service.slug}`,
+      },
+    },
     description: service.heroDesc,
     openGraph: {
       title: `${service.name} | Osumio Digital Agency`,
       description: service.heroDesc,
-      url: `https://osumio.com/services/${service.slug}`,
+      url: `{{metadataBase}}/services/${service.slug}`,
     },
   };
 }

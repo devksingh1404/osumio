@@ -9,6 +9,12 @@ import CTA from "../components/CTA";
 
 export const metadata = {
   title: "Selected Work & Case Studies | Osumio Digital Agency",
+  alternate: {
+    canonical: "{{metadataBase}}/work",
+    languages: {
+      "en-US": "{{metadataBase}}/work",
+    },
+  },
   description:
     "Explore how Osumio engineers high-performance web products, SEO architectures, and customer acquisition engines that drive measurable commercial results.",
 };

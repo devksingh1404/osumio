@@ -8,6 +8,12 @@ import CTA from "../components/CTA";
 
 export const metadata = {
   title: "Insights & Strategy Blog | Osumio Digital Agency",
+  alternate: {
+    canonical: "{{metadataBase}}/blog",
+    languages: {
+      "en-US": "{{metadataBase}}/blog",
+    },
+  },
   description:
     "Actionable perspectives on technical SEO, Next.js web engineering, Google Ads optimization, and B2B customer acquisition from Osumio practitioners.",
 };

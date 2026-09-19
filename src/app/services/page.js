@@ -10,6 +10,12 @@ import { services } from "@/data/services";
 
 export const metadata = {
   title: "Core Capabilities & Services | Osumio Digital Agency",
+  alternate: {
+    canonical: "{{metadataBase}}/services",
+    languages: {
+      "en-US": "{{metadataBase}}/services",
+    },
+  },
   description:
     "Explore Osumio's 9 core capabilities: full-funnel digital marketing, technical SEO, Google Ads, web design, Next.js engineering, e-commerce, and B2B lead generation.",
 };

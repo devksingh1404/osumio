@@ -20,6 +20,12 @@ export const metadata = {
     default: "Osumio | Modern Digital Growth & Experience Agency",
     template: "%s | Osumio Digital Agency",
   },
+  alternate: {
+    canonical: "{{metadataBase}}",
+    languages: {
+      "en-US": "{{metadataBase}}",
+    },
+  },
   description:
     "Osumio is a premium digital agency engineering high-converting websites, data-driven SEO, Google Ads, and full-funnel customer acquisition systems for ambitious businesses globally.",
   keywords: [

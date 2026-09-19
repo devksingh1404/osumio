@@ -9,6 +9,12 @@ import CTA from "../components/CTA";
 
 export const metadata = {
   title: "About the Studio | Osumio Digital Agency",
+  alternate: {
+    canonical: "{{metadataBase}}/about",
+    languages: {
+      "en-US": "{{metadataBase}}/about",
+    },
+  },
   description:
     "Learn about Osumio's agency philosophy, engineering standards, and mission to help ambitious businesses across the US, UK, Canada, and Australia scale online.",
 };

@@ -9,6 +9,12 @@ import FAQ from "../components/FAQ";
 
 export const metadata = {
   title: "Start a Conversation | Osumio Digital Agency",
+  alternate: {
+    canonical: "{{metadataBase}}/contact",
+    languages: {
+      "en-US": "{{metadataBase}}/contact",
+    },
+  },
   description:
     "Schedule a consultation or submit a project brief to Osumio. We respond within 1 business day with preliminary strategic notes and timeline estimates.",
 };
